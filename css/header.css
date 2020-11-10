@@ -1,0 +1,75 @@
+.header{
+    background-color: #ffffff;
+    box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1);;
+}
+
+.main-caption{
+    font-size: 48px;
+    line-height: 58px;
+    color: #333333;
+}
+
+.btn{
+    outline: none;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    justify-content: space-between;
+}
+
+.menu-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-list{
+    display: flex;
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 105px;
+}
+.menu-list-item{
+    transition: border linear 0.1s;
+}
+.menu-list-item:hover{
+    transition: border linear 0.1s;
+    border-bottom: 2px solid #FF9900;
+}
+.menu-list-item:not(:last-child){
+    margin-right: 85px;
+}
+
+.btn-search{
+    position: absolute;
+    background: url("../img/Search.svg") no-repeat;
+    width: 25px;
+    height: 25px;
+    right: 12px;
+    top: 40px;
+    border: none;
+    transition: linear 0.01s;
+}
+
+.btn-search:hover{
+    width: 30px;
+    height: 30px;
+    background: url("../img/Searchgold.svg")no-repeat;
+}
+.burger{
+    display: none;
+    width: 30px;
+    height: 23px;
+    background: url("../img/Burger.svg") no-repeat;
+    border: none;
+    transition: linear 0.1s;
+}
+
+.burger:hover{
+    transition: linear 0.1s;
+    background: url("../img/Burgerhover.svg") no-repeat;
+
+}

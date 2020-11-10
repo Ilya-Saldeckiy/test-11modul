@@ -1,0 +1,43 @@
+.top-banner{
+    margin-bottom: 100px;
+}
+
+.slider{
+    background: url("../img/low-angle-photo-of-balconies-2462015.png") no-repeat;
+    padding-left: 78px;
+    padding-top: 56px;
+    padding-bottom: 95px;
+}
+
+.slide-caption{
+    width: 840px;
+    line-height: 86px;
+    font-size: 70px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.slide-text{
+    width: 764px;
+    line-height: 29px;
+    font-size: 23px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 95px;
+}
+
+.slide-button{
+    background-color: #FF9900;
+    color: #ffffff;
+    border: none;
+    padding: 25px 38px;
+    font-weight: bold;
+    font-size: 23.4581px;
+    line-height: 29px;
+    transition: linear 0.2s;
+}
+
+.slide-button:hover{
+    transition: linear 0.2s;
+    background:rgba(255, 153, 0, 0.6);
+}
